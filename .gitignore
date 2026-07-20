@@ -1,0 +1,63 @@
+# ==========================
+# Java
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# JVM crash logs
+hs_err_pid*
+
+# ==========================
+# Build Directories
+# ==========================
+target/
+build/
+out/
+bin/
+
+# Gradle
+.gradle/
+
+# Maven Wrapper (keep these if using Maven)
+# !.mvn/wrapper/maven-wrapper.jar
+# !mvnw
+# !mvnw.cmd
+
+# ==========================
+# IntelliJ IDEA
+# ==========================
+.idea/
+*.iml
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# Eclipse
+# ==========================
+.project
+.classpath
+.settings/
+
+# ==========================
+# NetBeans
+# ==========================
+nbproject/private/
+nbbuild/
+dist/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Windows
+# ==========================
+Thumbs.db
+Desktop.ini
