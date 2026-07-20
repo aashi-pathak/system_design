@@ -3,19 +3,19 @@
 */
 
 interface Vehicle {
-    bool hasEngine();
+    boolean hasEngine();
 }
 
-class Cycle extends Vehicle {
+class Cycle implements Vehicle {
     @Override
-    public bool hasEngine() {
+    public boolean hasEngine() {
         return false;
     }
 }
 
-class Car extends Vehicle {
+class Car implements Vehicle {
     @Override
-    public bool hasEngine() {
+    public boolean hasEngine() {
         return true;
     }
 }
